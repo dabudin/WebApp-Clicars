@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clicars</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/mycss.css"/>
+</head>
+  <body>
+
+    <div id="maincontainer" class="container px-5 pt-3">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+
+            <!-- LOGO CLICARS -->
+            <img src="img/logo.png" alt="logo clicars"/>
+            
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                    <!-- DROPDOWN MARCA -->
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="ddmarca" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marca</a>
+                        <div class="dropdown-menu" aria-labelledby="ddmarca">
+
+                            <!-- Pon esto dentro de un bucle for.. -->
+                            <a class="dropdown-item" href="#"></a>
+
+                        </div>
+                    </li>
+                    <!-- DROPDOWN MARCA -->
+
+                    <!-- DROPDOWN ORDENAR POR... -->
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="ddordenar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ordenar por...</a>
+                        <div class="dropdown-menu" aria-labelledby="ddordenar">
+
+                            <a class="dropdown-item" href="#">Nada</a>
+                            <a class="dropdown-item" href="#">Nombre</a>
+                            <a class="dropdown-item" href="#">Modelo</a>
+                            <a class="dropdown-item" href="#">Año</a>
+                            <a class="dropdown-item" href="#">Kilómetros</a>
+                            <a class="dropdown-item" href="#">Caballos</a>
+
+                        </div>
+                    </li>
+                    <!-- DROPDOWN ORDENAR POR... -->
+
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Nombre, Modelo, Año">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+                <!-- SEARCH -->
+
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+
+        
+        <!-- CARDS COCHES -->
+        <div id="coches" class="row my-5">
+
+            <!--Pon esto dentro de un bucle for...-->
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+
+                    <!-- DISENO CARD BODY-->
+                    <div class="card-body mb-3 p-0">
+
+                        <!-- Imagen coche-->
+                        <img src="img/coche.jpg" alt=""/>
+
+                        <!-- Estrella rating-->
+                        <div class="text-right">
+                            <a class="rating mr-1" href="#">&#9733;</a>
+                        </div>
+                        
+                        <!-- Row Nombre - Precio antes -->
+                        <div class="row mt-3 mb-2 pl-3">
+                            <div class="col-9 m-0">
+                                Nombre
+                            </div>
+                            <div class="col-3 text-right text-danger m-0 p-0">
+                                Precio antes
+                            </div>
+                        </div>
+
+                        <!-- Row Modelo - Precio -->
+                        <div class="row mb-2 pl-3">
+                            <div class="col-9">
+                                Modelo
+                            </div>
+                            <div class="col-3 text-right text-success">
+                                Precio
+                            </div>
+                        </div>
+
+                        <!-- Row Anio - Km - Cv -->
+                        <div class="row mb-2 pl-3">
+                            <div class="col-12">
+                                Anio | Km | Cv
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- DISENO CARD BODY-->
+
+                </div>
+            </div>
+
+        </div>
+        <!-- CARDS COCHES -->
+
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

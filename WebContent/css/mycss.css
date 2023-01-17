@@ -1,0 +1,42 @@
+#maincontainer {
+    height: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#coches .card {
+	height: auto;
+	min-height: 400px;
+}
+#coches .card {
+    color: white;
+    background-color: #323b3f;
+}
+#coches .card img {
+    width: auto;
+    max-width: 100%;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: -8px;
+}
+#coches .card .row {
+	max-width: 100%;
+}
+.rating {
+	display: inline-block ;
+	text-decoration: none ;
+	font-size: 32px;
+	color: white ;
+}
+.rating:hover {
+    color: gold ;
+    text-decoration: none ;
+}
+
+.unrating {
+	display: inline-block ;
+	text-decoration: none ;
+	font-size: 32px;
+	color: gold ;
+}
+.unrating:hover {
+    color: white ;
+    text-decoration: none ;
+}
